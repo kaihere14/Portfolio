@@ -1,0 +1,288 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+
+    @font-face {
+        font-family: "novo";
+        src: url(/Fonts/NovaMono-Regular.ttf);
+    }
+    body{
+        background-color: #fefae0;
+    }
+    html {
+    scroll-behavior: smooth;
+    }
+    .nav {
+        position: sticky;
+        top: 0;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #e9edc9; 
+        font-family: "novo";
+        z-index: 111;
+    }
+
+    .nav-left {
+        margin-left: 2%;
+        font-size: 2rem;
+        color: #a0d473;
+    }
+
+    .nav-left:hover {
+        border-radius: 10px;
+        color: #fefae0;
+        background-color: rgba(15, 170, 15, 0.604);
+    }
+
+    .nav-right {
+        margin-right: 3%;
+    }
+
+    .nav-right a {
+        text-decoration: none;
+        color: #d4a373;
+        margin: 10px;
+    }
+    .bol{   
+        font-size: 1.5rem;
+        color: #e9edc9;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.306);
+        background-color: #a3d9a5;
+        border-radius: 5px;
+    }
+    .nav-right a:hover {
+        color: #fefae0;
+        background-color: rgba(15, 170, 15, 0.604);
+        border-radius: 5px;
+    }   
+
+    .hero {
+        width: 100%;
+        height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .hero-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+
+    .hero-right {
+        width: 30%;
+    }
+
+    .img {
+        width: 350px;
+        height: 350px;
+        background-image: url(/Images/IMG_1257.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        overflow: hidden;
+        transition: transform 0.2s linear;
+    }
+    .img:hover{
+        transform: scale(1.02);
+    }
+    .hero-right{
+        font-family: "novo";
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero-right h1{
+        font-size: 2.5rem;
+    }
+    .hero-right h1::first-letter{
+        font-size: 4.2rem;
+        font-weight: 100;
+    }
+    .hero-right p{
+        font-size: 1.5rem;
+    }
+    .hero-right p span{
+        color: green;
+        text-decoration: underline;
+    }
+    .conact{
+        display: flex;
+        justify-content: space-evenly;
+        margin-right: 10%;
+        font-size: 2rem;
+        transition: transform 0.3s linear;
+    }
+    .conact i:hover{
+        transform: scale(1.1);
+        color: green;
+    }
+    .conact a{
+        color: black;
+    }
+    .infinite{
+        font-size: 2rem;
+        display: flex;
+        justify-content: space-evenly;
+        border-block: 2px solid black;
+        overflow: hidden;
+        user-select: none;
+    }
+    .all i{
+        margin-right: 0.8rem;
+    }
+
+    .skills{
+        margin-top: 10%;
+    height: 85vh; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .skills h1{
+        font-size: 2rem;
+        font-family: 'novo';
+        font-weight: 900;
+        color: #d4a373;
+        text-decoration: underline;
+    }
+    .skills-main{
+        height: 100vh;
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 10%;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .s{
+        padding: 1rem;
+        width: 25vw;
+        background-color: rgba(255, 255, 255, 0.9   03);
+        backdrop-filter: blur(10px);
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
+        transition: transform 0.2s linear;
+        font-family: 'novo';
+    }
+    .s:hover{
+        flex-shrink: 1;
+        transform: scale(1.01);
+    }
+    .s img{
+        height: auto;
+        max-height: 40vh;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .s a{
+        margin-top: 5%;
+        color: #d4a373;
+        text-decoration: none
+    }
+    .s i{
+        color: black;
+        transition: transform 0.2s ease-in;
+    }
+    .s i:hover{
+        transform: scale(1.2);
+    }
+    .links{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+
+
+.skills-container {
+  width: 90%;
+  max-width: 800px;
+  margin: 150px auto;
+  background-color: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 25px;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.25);
+  font-family: "novo";
+}
+
+.skills-container h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+  color: #d4a373;
+  text-decoration: underline;
+}
+
+.skill {
+  margin-bottom: 30px;
+}
+
+.skill span {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  font-size: 1.3rem;
+  color: #a0d473;
+}
+
+.progress-bar {
+  display: inline-block;
+  width: 70%;
+  height: 30px;
+  background: #e9edc9;
+  border-radius: 15px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.progress {
+  height: 100%;
+  line-height: 30px;
+  text-align: right;
+  color: #fff;
+  padding-right: 10px;
+  border-radius: 15px;
+  font-size: 1rem;
+  transition: width 0.6s ease;
+}
+
+.progress.html {
+  width: 100%;
+  background: linear-gradient(90deg, #ff4b2b, #ff416c);
+}
+
+.progress.css {
+  width: 90%;
+  background: linear-gradient(90deg, #ffb347, #ffcc33);
+}
+
+.progress.js {
+  width: 75%;
+  background: linear-gradient(90deg, #36d1dc, #5b86e5);
+}
+
+.progress.java {
+  width: 60%;
+  background: linear-gradient(90deg, #8e2de2, #4a00e0);
+}
+
+.message{
+    color: #d4a373;
+    margin: 200px auto  ;
+    font-family: "novo";
+    text-align: center;
+    font-size: 2.2rem;
+}
