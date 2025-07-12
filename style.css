@@ -143,7 +143,7 @@
 
     .skills{
         margin-top: 10%;
-    height: 85vh; 
+    height: 130vh; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -157,17 +157,18 @@
         text-decoration: underline;
     }
     .skills-main{
-        height: 100vh;
+        height: auto;
         display: flex;
         justify-content: space-evenly;
         margin-top: 10%;
         flex-wrap: wrap;
         align-items: flex-start;
+        gap: 4em;
     }
     .s{
         padding: 1rem;
         width: 25vw;
-        background-color: rgba(255, 255, 255, 0.9   03);
+        background-color: rgba(255, 255, 255, 0.62);    
         backdrop-filter: blur(10px);
         border-radius: 20px;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
