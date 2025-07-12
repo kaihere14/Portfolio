@@ -374,6 +374,9 @@
     .hero-right{
         width: 100%;
     }
+    .hero-right{
+        margin-left: 5%;
+    }
    .message{
         font-size: 1.5rem;
     }
