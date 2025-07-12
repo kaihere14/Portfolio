@@ -374,4 +374,7 @@
     .hero-right{
         width: 100%;
     }
+   .message{
+        font-size: 1.5rem;
+    }
 }
