@@ -96,6 +96,7 @@ html {
   border-radius: 50%;
   overflow: hidden;
   transition: transform 0.2s linear;
+  flex-shrink : 0;
 }
 .img:hover {
   transform: scale(1.02);
