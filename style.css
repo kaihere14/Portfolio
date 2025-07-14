@@ -398,6 +398,9 @@ html {
   }
 }
 @media (max-width: 590px) {
+  .infinite{
+    margin-top : 10%
+    }
   .s a {
     font-size: 1rem;
   }
