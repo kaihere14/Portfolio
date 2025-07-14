@@ -39,7 +39,7 @@ html {
 }
 
 .nav-right {
-  margin-right: 3%;
+  margin-right: 2%;
 }
 
 .nav-right a {
@@ -398,9 +398,6 @@ html {
   }
 }
 @media (max-width: 590px) {
-  .infinite{
-    margin-top : 10%
-    }
   .s a {
     font-size: 1rem;
   }
