@@ -65,6 +65,42 @@ html {
   color: green;
   display: none;
 }
+.down {
+  position: sticky;
+  top: 59px;
+  z-index: 999;
+  height: 20vh;
+  margin-top: 1rem;
+  background-color: #e9edc986; /* light cream */
+  border-radius: 20px;
+  backdrop-filter: blur(7px);
+  display: none;
+  border-top: 2px solid #d4a373;
+  border-bottom: 2px solid #d4a373;
+}
+
+
+
+.down a {
+  font-size: 1.5rem;
+  text-decoration: none;
+   color: #3b7a3b; /* dark text for better contrast */
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.down a:hover {
+  color: #1e4d1e; /* darker green on hover */
+}
+
+ .down li{
+  list-style: none;
+}
+.down ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
 
 .hero {
   margin-top: 9%;
@@ -315,7 +351,6 @@ html {
   text-align: center;
   font-size: 2.2rem;
 }
-
 @media (max-width: 920px) {
   .hero h1 {
     font-size: 2rem;
@@ -373,6 +408,8 @@ html {
     display: none;
   }
   .nav-right i {
+    cursor: pointer;
+    font-size: 1.5rem;
     display: block;
   }
   .hero-right {
@@ -383,5 +420,9 @@ html {
   }
   .message {
     font-size: 1.5rem;
+  }
+  .down{
+    justify-content: center;
+    align-items: center;
   }
 }
