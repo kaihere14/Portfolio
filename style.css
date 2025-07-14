@@ -407,6 +407,9 @@ html {
   .nav-right a {
     display: none;
   }
+   .nav-right{
+    margin-right: 5%;
+  }
   .nav-right i {
     cursor: pointer;
     font-size: 1.5rem;
