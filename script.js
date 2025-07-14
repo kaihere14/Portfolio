@@ -1,7 +1,7 @@
 const bar = document.querySelector(".fa-bars")
 const down = document.querySelector(".down")
 
-let view = false;
+let view = true;
 bar.addEventListener("click",()=>{
     if(view){
         down.style.display = "flex";
