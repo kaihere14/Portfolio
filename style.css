@@ -203,6 +203,14 @@ html {
   flex-direction: column;
   justify-content: center;
 }
+.skills2 {
+  height: 130vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skills h1 {
   font-size: 2rem;
   font-family: "novo";
@@ -210,6 +218,14 @@ html {
   color: #d4a373;
   text-decoration: underline;
 }
+.skills2 h1 {
+  font-size: 2rem;
+  font-family: "novo";
+  font-weight: 900;
+  color: #d4a373;
+  text-decoration: underline;
+}
+
 .skills-main {
   height: auto;
   display: flex;
@@ -220,6 +236,18 @@ html {
   gap: 3em;
   overflow-x: auto;
 }
+
+.skills2-main {
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10%;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 3em;
+  overflow-x: auto;
+}
+
 .skills-main::-webkit-scrollbar {
   height: 8px;
 }
@@ -275,6 +303,7 @@ html {
   width: 90%;
   max-width: 800px;
   margin: 150px auto;
+  margin-top: 0px;
   background-color: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(10px);
   padding: 40px;
